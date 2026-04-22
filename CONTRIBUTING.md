@@ -1,11 +1,3 @@
-# Contributing Guidelines
-
-This document outlines the best practices for contributing to the E-commerce API project, with emphasis on pair programming collaboration.
-
-## Pair Programming Model
-
-This project uses **pair programming** for all development. Both partners must actively participate and understand all implementations.
-
 ### Roles
 
 #### Driver (Code Writer)
@@ -22,9 +14,6 @@ This project uses **pair programming** for all development. Both partners must a
 - Maintains broader context
 
 ### Role Rotation
-
-Rotate roles after each **completed task** or every **30 minutes** of active coding:
-
 ```
 Task 1: Partner A drives, Partner B navigates
 Task 2: Partner B drives, Partner A navigates
@@ -374,41 +363,3 @@ git push origin main
 git branch -d feat/product-filtering
 git push origin --delete feat/product-filtering
 ```
-
-## Common Mistakes to Avoid
-
-1. **Committing large changes without messages** 
-   → Always write clear commit messages
-
-2. **One person driving all the time**
-   → Rotate roles to ensure both partners understand
-
-3. **Not syncing before merging**
-   → Always `git pull` before merging
-
-4. **Merging without review**
-   → Review together before merging to main
-
-5. **Not testing before committing**
-   → Test every feature before commit
-
-6. **Pushing directly to main**
-   → Always use feature branches
-
-7. **Unclear commit messages**
-   → Use "Action + Result" format
-
-8. **Forgetting to update documentation**
-   → Document as you code
-
-## Questions or Issues?
-
-If you have questions about contribution guidelines:
-1. Check this document first
-2. Discuss with your pair programming partner
-3. Reference the DEVELOPMENT.md file
-4. Check the README.md for related information
-
----
-
-**Remember**: Good pair programming requires communication, clear code, and shared understanding. Take your time to explain and understand each implementation.
